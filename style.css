@@ -1,0 +1,40 @@
+*, *::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column; 
+}
+
+header{}
+
+main{
+    height: 10rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    max-inline-size: 22rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(0, 0, 0, 0.12); 
+}
+.calculator__output {
+}
+.calculator__keys {
+}
+.calculator__key {
+}
+.calculator__key--operator {
+}
+.calculator__key--enter {
+}
+
+footer{}
