@@ -97,9 +97,23 @@ main{
     border-radius: 60px;
     margin: 0.25rem;
 }
+
+.calculator__key:hover{
+    opacity: 0.7;
+}
+
+.number:hover,#clear:hover,#dot:hover{
+    background-color: #bad4cf;
+}
+
 .calculator__key--operator {
     background: hsl(208, 25%, 86%);
 }
+
+/* 
+.calculator__key--operator:disabled, .calculator__key--operator[disabled] {
+} */
+
 .calculator__key--enter {
     grid-column: 4 / 5; 
     grid-row: 2 / span 4;
